@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header,
@@ -37,6 +38,58 @@ a {
     text-decoration: none;
     color: #E5E7EB
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
 .content {
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
     
+}
+
+.first-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: #F9FAF8 solid 2px;
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 20px;
+    padding: 30px;
+}
+
+.left {
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #3882F7;
+    border-radius: 5px;
+    padding: 5px 12px;
+    border: 0px;
+    color: #F9FAF8;
+    font-weight: bold;    
 }
