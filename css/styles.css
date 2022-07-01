@@ -16,7 +16,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;   
 }
 
 .logo {
@@ -66,7 +66,7 @@ a {
     align-items: center;
     background-color: #1F2937;
     gap: 20px;
-    padding: 30px;
+    padding: 80px;
 }
 
 .left {
@@ -122,4 +122,37 @@ img {
 h2 {
     color: #1F2937;
     font-size: 36px;
+    margin-top: 60px;
 }
+ 
+.third-container {
+   
+    background-color: #E5E7EB;
+    padding: 60px;
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.quote {
+    max-width: 600px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.top-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    
+}
+
+.bottom-text {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
